@@ -1,3 +1,103 @@
+$htwk-primary: #004786;
+
 body {
- // background: blue
+  // background: blue
+}
+
+.introduction {
+  margin-bottom: 5rem;
+
+  .title {
+    margin-bottom: 2rem;
+    color: $htwk-primary;
+  }
+
+  .logo {
+    width: 10em;
+  }
+
+  hr {
+    margin: 2rem 11rem;
+  }
+}
+
+//15 min unit
+$hU: 1rem;
+.container {
+  margin-top: 5rem
+}
+
+.time {
+  height: 2 * $hU
+}
+
+.day-title {
+  margin-bottom: 2rem;
+}
+
+.event {
+  // border: 1px solid black
+  .card-block {
+    padding: 0.75em !important;
+  }
+  .card-title {
+    font-size: 11pt;
+    margin-bottom: 0;
+    small {
+      margin-right: 3rem
+    }
+  }
+  .btn {
+    color: white;
+    border: 1px solid white;
+
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+
+  .email {
+    float: right;
+    font-size: 10pt;
+  }
+}
+
+.dur {
+  &.one {
+    height: 1 * $hU;
+  }
+  &.two {
+    height: 2 * $hU;
+  }
+  &.three {
+    height: 3 * $hU;
+  }
+  &.four {
+    height: 4 * $hU;
+  }
+  &.five {
+    height: 5 * $hU;
+  }
+  &.six {
+    height: 6 * $hU;
+  }
+  &.seven {
+    height: 7 * $hU;
+  }
+  &.eight {
+    height: 8 * $hU;
+  }
+  &.nine {
+    height: 9 * $hU;
+  }
+  &.ten {
+    height: 10 * $hU;
+  }
+  &.eleven {
+    height: 11 * $hU;
+  }
+  &.twelve {
+    height: 11 * $hU;
+  }
 }

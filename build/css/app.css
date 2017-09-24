@@ -6023,3 +6023,78 @@ legend {
 .alert a,
 .alert .alert-link {
   color: #fff; }
+
+.introduction {
+  margin-bottom: 5rem; }
+  .introduction .title {
+    margin-bottom: 2rem;
+    color: #004786; }
+  .introduction .logo {
+    width: 10em; }
+  .introduction hr {
+    margin: 2rem 11rem; }
+
+.container {
+  margin-top: 5rem; }
+
+.time {
+  height: 2rem; }
+
+.day-title {
+  margin-bottom: 2rem; }
+
+.event .card-block {
+  padding: 0.75em !important; }
+
+.event .card-title {
+  font-size: 11pt;
+  margin-bottom: 0; }
+  .event .card-title small {
+    margin-right: 3rem; }
+
+.event .btn {
+  color: white;
+  border: 1px solid white; }
+  .event .btn:hover {
+    background: white;
+    color: black; }
+
+.event .email {
+  float: right;
+  font-size: 10pt; }
+
+.dur.one {
+  height: 1rem; }
+
+.dur.two {
+  height: 2rem; }
+
+.dur.three {
+  height: 3rem; }
+
+.dur.four {
+  height: 4rem; }
+
+.dur.five {
+  height: 5rem; }
+
+.dur.six {
+  height: 6rem; }
+
+.dur.seven {
+  height: 7rem; }
+
+.dur.eight {
+  height: 8rem; }
+
+.dur.nine {
+  height: 9rem; }
+
+.dur.ten {
+  height: 10rem; }
+
+.dur.eleven {
+  height: 11rem; }
+
+.dur.twelve {
+  height: 11rem; }
